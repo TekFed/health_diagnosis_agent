@@ -1,0 +1,21 @@
+# Core
+google-adk>=0.1.0  # or whatever version you're using
+python-dotenv>=1.0.0
+
+# LLM clients (choose what you actually use)
+openai>=1.0.0
+anthropic>=0.20.0
+# xai-sdk  # ← if xAI has an official pip package by now; otherwise use openai-compatible client
+# httpx  # usually pulled in by above
+
+# Optional
+langchain>=0.2.0          # if you're using LangChain wrappers
+langchain-community>=0.2.0
+pydantic>=2.0.0
+requests>=2.31.0
+rich>=13.0.0              # nice console output
+
+# Development / optional
+pytest>=8.0.0
+black>=24.0.0
+ruff>=0.5.0
