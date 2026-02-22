@@ -52,6 +52,7 @@ cp agents/.env.example agents/.env
 
 Edit `agents/.env` and add your keys:
 ```env
+GEMINI_API_KEY=SK-...
 XAI_API_KEY=sk-...
 OPENAI_API_KEY=sk-...
 ANTHROPIC_API_KEY=sk-...
@@ -131,11 +132,3 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 **Built with ❤️ and lots of ☕**
 
 ---
-
-Made by **Collins** (@tekfed_Llins)
-
----
-
-Just say the word and I’ll give it to you instantly! 🚀
-
-Your repo is going to look very professional now. Great job!
