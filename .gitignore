@@ -2,8 +2,9 @@
 __pycache__/
 *.py[codz]
 *$py.class
+# In .gitignore (create/edit)
 .env
-agents/.env 
+agents/.env
 
 # C extensions
 *.so
